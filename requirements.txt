@@ -26,3 +26,5 @@ user-agent==0.1.10
 uuid==1.30
 Werkzeug==2.1.2
 yarg==0.1.9
+DateTime==5.0
+ZaidPP==0.4.1
