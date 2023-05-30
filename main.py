@@ -136,7 +136,8 @@ def register(message):
 
     if us in allusers:
 
-    	bot.send_message(message.chat.id, 'أهلاً بك عزيزي العميل في خدمة فاستر دلفري 🔥\nاختر الخدمة التي تريدها من الأزرار الموجودة بالأسفل', reply_markup=keyboard1)    else:
+    	bot.send_message(message.chat.id, 'أهلاً بك عزيزي العميل في خدمة فاستر دلفري 🔥\nاختر الخدمة التي تريدها من الأزرار الموجودة بالأسفل', reply_markup=keyboard1)    
+    else:
 
     	keyboard = types.ReplyKeyboardMarkup(one_time_keyboard=True)
 
